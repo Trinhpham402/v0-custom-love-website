@@ -13,7 +13,11 @@ export default function MusicPlayer() {
     // Check if music file exists before creating audio element
     const checkMusicFile = async () => {
       try {
+<<<<<<< HEAD
         const response = await fetch("/public/music/EmCuaAnhDungCuaAi.mp3", { method: "HEAD" })
+=======
+        const response = await fetch("/music/background-music.mp3", { method: "HEAD" })
+>>>>>>> 1c633389c9001f1246a0b8a31e21ac2149b80724
         if (response.ok) {
           setHasMusic(true)
           initializeAudio()
