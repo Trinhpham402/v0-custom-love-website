@@ -12,7 +12,7 @@ export default function Envelope() {
     <div className="relative mx-auto w-full max-w-sm">
       {!isOpen ? (
         <motion.div
-          className="bg-pink-50/80 rounded-3xl shadow-pink-100/50 shadow-md p-6 cursor-pointer border border-pink-100 hover:bg-pink-100/80 transition-colors duration-200"
+          className="bg-pink-200/90 rounded-3xl shadow-pink-200/60 shadow-md p-6 cursor-pointer border border-pink-300 hover:bg-pink-300/90 transition-colors duration-200"
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.98 }}
           onClick={toggleEnvelope}
@@ -27,14 +27,14 @@ export default function Envelope() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="text-pink-200 w-full h-full"
+                className="text-pink-300 w-full h-full"
               >
-                <rect x="2" y="7" width="20" height="14" rx="4" className="stroke-pink-100" />
-                <polyline points="2,7 12,14 22,7" className="stroke-pink-200" />
+                <rect x="2" y="7" width="20" height="14" rx="4" className="stroke-pink-200" />
+                <polyline points="2,7 12,14 22,7" className="stroke-pink-300" />
               </svg>
             </div>
-            <h2 className="text-lg font-semibold text-pink-400">Click thử ii</h2>
-            <p className="text-pink-300 mt-2">Một thông điệp đặc biệt đang chờ em...</p>
+            <h2 className="text-lg font-semibold text-pink-500">Click thử ii</h2>
+            <p className="text-pink-400 mt-2">Một thông điệp đặc biệt đang chờ em...</p>
           </div>
         </motion.div>
       ) : (
