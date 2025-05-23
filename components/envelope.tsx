@@ -66,7 +66,7 @@ export default function Envelope() {
           </div>
 
           <div className="prose prose-pink mx-auto">
-            <h3 className="text-2xl font-bold text-pink-600 mb-4">Em Yêu Thương,</h3>
+            <h3 className="text-2xl font-bold text-pink-600 mb-4">Thủy à,</h3>
 
             <p className="text-gray-800 mb-3">
               Đã một tháng kể từ khi chúng ta bắt đầu hành trình này cùng nhau. Mỗi khoảnh khắc bên em đều là kỷ niệm
