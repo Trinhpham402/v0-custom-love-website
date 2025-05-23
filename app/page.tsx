@@ -4,7 +4,7 @@ import FallingHearts from "@/components/falling-hearts"
 import MusicPlayer from "@/components/music-player"
 
 export const metadata: Metadata = {
-  title: "Kỷ Niệm Hạnh Phúc",
+  title: "Kỷ Niệm Một Tháng Yêu Nhau",
   description: "Một thông điệp đặc biệt cho kỷ niệm một tháng yêu nhau",
 }
 
@@ -31,7 +31,7 @@ export default function Home() {
               1. Tạo thư mục: <code className="bg-pink-100 px-1 rounded">public/music/</code>
             </div>
             <div>
-              2. Thêm file: <code className="bg-pink-100 px-1 rounded">background-music.mp3</code>
+              2. Thêm file: <code className="bg-pink-100 px-1 rounded">background.mp3</code>
             </div>
             <div>
               3. Khởi động lại server: <code className="bg-pink-100 px-1 rounded">npm run dev</code>
