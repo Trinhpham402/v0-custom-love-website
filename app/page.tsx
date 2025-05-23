@@ -21,23 +21,6 @@ export default function Home() {
         <Envelope />
 
         <p className="mt-8 text-pink-700 text-sm">Làm với tất cả tình yêu dành cho em ❤️</p>
-
-        <div className="mt-4 p-3 bg-pink-50 rounded-lg border border-pink-200">
-          <div className="text-xs text-pink-600 mb-2">
-            <strong>Hướng dẫn thêm nhạc:</strong>
-          </div>
-          <div className="text-xs text-pink-500 space-y-1">
-            <div>
-              1. Tạo thư mục: <code className="bg-pink-100 px-1 rounded">public/music/</code>
-            </div>
-            <div>
-              2. Thêm file: <code className="bg-pink-100 px-1 rounded">background.mp3</code>
-            </div>
-            <div>
-              3. Khởi động lại server: <code className="bg-pink-100 px-1 rounded">npm run dev</code>
-            </div>
-          </div>
-        </div>
       </div>
 
       <MusicPlayer />
