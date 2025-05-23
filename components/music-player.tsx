@@ -14,7 +14,7 @@ export default function MusicPlayer() {
     const checkMusicFile = async () => {
       try {
 
-        const response = await fetch("/music/EmCuaAnhDungCuaAi.mp3", { method: "HEAD" })
+        const response = await fetch("/music/background.mp3", { method: "HEAD" })
 
         if (response.ok) {
           setHasMusic(true)
@@ -28,7 +28,7 @@ export default function MusicPlayer() {
     }
 
     const initializeAudio = () => {
-      const audio = new Audio("/music/background-music.mp3")
+      const audio = new Audio("/music/background.mp3")
       audio.loop = true
       audioRef.current = audio
 
